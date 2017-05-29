@@ -1,2 +1,2 @@
 # minimal
-Minimal is a minimalist landing page for Terrance Corley. 
+Minimal is a minimalist landing page. 
