@@ -49,9 +49,9 @@ MAIN CONTENT
   background-color: rgba(255, 255, 255, 0.8);
   max-width: 350px;
   min-height: 400px;
-  margin: 82px auto;
+  margin: 85px auto;
   padding: 12% 3% 5%;
-  border-radius: 2px;
+  border-radius: 4px;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -112,6 +112,18 @@ h2 {
 FOOTER
 **********************************/
 
+footer {
+  padding-bottom: 1%;
+  font-size: 0.765rem;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+footer p {
+  margin: 0;
+}
+
 
 
 /**********************************
@@ -124,4 +136,17 @@ h2 {
 
 .title {
   color: #414f57;
+}
+
+footer,
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer a {
+  transition: color 0.1s ease-in-out;
+}
+
+footer a:hover {
+  color: #f98ea8;
 }
