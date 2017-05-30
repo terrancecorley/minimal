@@ -45,6 +45,56 @@ a {
 MAIN CONTENT
 **********************************/
 
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 350px;
+  height: 400px;
+  margin: 82px auto;
+  padding: 12% 2% 5%;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+.title {
+  display: block;
+}
+
+.social-icon {
+  text-indent: -10000px;
+  display: inline-block;
+  margin: 5%;
+  min-height: 50px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  background-image: url('../img/twitter.svg');
+}
+
+.instagram {
+  background-image: url('../img/instagram.svg');
+}
+
+.linkedin {
+  background-image: url('../img/linkedin.svg');
+}
+
+.twitter:hover {
+  background-image: url('../img/twitter-hover.svg');
+}
+
+.instagram:hover {
+  background-image: url('../img/instagram-hover.svg');
+}
+
+.linkedin:hover {
+  background-image: url('../img/linkedin-hover.svg');
+}
 
 
 /**********************************
