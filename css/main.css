@@ -164,8 +164,15 @@ MEDIA QUERIES
 
 @media screen and (min-width: 40em) {
 
-  * {
-    background-color: rgba(0, 0, 0, 0.1); //DELETE ME
+  html {
+    font-size: 1.125em;
+  }
+
+  .container {
+    min-height: 310px;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 8% 3% 5%;
   }
 
 }
