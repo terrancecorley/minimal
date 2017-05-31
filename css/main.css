@@ -78,10 +78,12 @@ h2 {
 .social-icon {
   text-indent: -10000px;
   display: inline-block;
-  margin: 2.5% 2.5%;
+  margin: 0.325em;
+  padding: 2em 2.5em;
   min-height: 50px;
   width: 50px;
   background-size: 50px;
+  background-position: center;
   background-repeat: no-repeat;
   transition: background-image 0.2s ease-in-out;
 }
