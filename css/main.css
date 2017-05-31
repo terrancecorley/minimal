@@ -2,6 +2,9 @@
 /* Table of Contents:
     1. General
     2. Main Content
+    3. Footer
+    4. Colors
+    5. Media Queries
 */
 
 /**********************************
@@ -113,7 +116,7 @@ FOOTER
 **********************************/
 
 footer {
-  padding-bottom: 1%;
+  padding-bottom: 2em;
   font-size: 0.765rem;
   font-weight: 300;
   text-align: center;
@@ -149,4 +152,18 @@ footer a {
 
 footer a:hover {
   color: #f98ea8;
+}
+
+
+
+/**********************************
+MEDIA QUERIES
+**********************************/
+
+@media screen and (min-width: 40em) {
+
+  * {
+    background-color: rgba(0, 0, 0, 0.1); //DELETE ME
+  }
+
 }
