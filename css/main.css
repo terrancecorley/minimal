@@ -176,3 +176,14 @@ MEDIA QUERIES
   }
 
 }
+
+
+@media screen and (min-width: 46em) {
+
+  .container {
+    min-height: 260px;
+    max-width: 420px;
+    padding: 6.5% 3% 3.5%;
+  }
+
+}
